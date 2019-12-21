@@ -261,7 +261,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	private void reversePair(Node<T> head) {
-		
+
 		if (head == null || head.getNext() == null)
 			return;
 		else {
@@ -361,8 +361,7 @@ public class LinkedList<T> implements Iterable<T> {
 		if (next != null) {
 			Node<T> temp = reverserOddK(next, k, ++odd);
 			frst.setNext(temp);
-			if (temp != null)
-				temp.setPrevious(frst);
+			temp.setPrevious(frst);
 		}
 		return prev;
 	}
@@ -398,8 +397,7 @@ public class LinkedList<T> implements Iterable<T> {
 		if (next != null) {
 			Node<T> temp = reversereEvenK(next, k, ++odd);
 			frst.setNext(temp);
-			if (temp != null)
-				temp.setPrevious(frst);
+			temp.setPrevious(frst);
 		}
 		return prev;
 	}
@@ -414,7 +412,7 @@ class linkedListIterator<T> implements Iterator<T> {
 
 	@Override
 	public boolean hasNext() {
-		
+
 		return (current != null);
 	}
 
@@ -441,7 +439,7 @@ class test {
 		// System.out.println(l);
 		// l.reverseEvenK(3);
 		// l.reverseFormAPoint(5);
-		//System.out.println("After reversing");
+		// System.out.println("After reversing");
 		// System.out.println(l);
 		// Iterator<Integer> it = l.iterator();
 		// System.out.println(it.hasNext());
