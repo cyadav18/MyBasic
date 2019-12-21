@@ -65,7 +65,6 @@ public class Tree_remake <T extends Comparable<T>>{
 
 
 	private void printLeaf(NodeTree<T> root) {
-		// TODO Auto-generated method stub
 		if(root==null)
 			return;
 		if(root.getLeft()==null&&root.getRight()==null)
@@ -84,7 +83,6 @@ public class Tree_remake <T extends Comparable<T>>{
 
 
 	private int getsize(NodeTree<T> root) {
-		// TODO Auto-generated method stub
 		if(root==null)
 			return 0;
 		else 
@@ -99,7 +97,6 @@ public class Tree_remake <T extends Comparable<T>>{
 
 
 	private int getheight(NodeTree<T> root) {
-		// TODO Auto-generated method stub
 		if(root==null)
 			return 0;
 		else
