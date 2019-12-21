@@ -86,8 +86,8 @@ public class NodeTree<T extends Comparable<T>>{
 
 class TestNode{
 	public static void main(String[] args) {
-		NodeTree<Integer> n = new NodeTree<Integer>(20);
-		NodeTree<Integer> n2 = new NodeTree<Integer>(32);
+		NodeTree<Integer> n = new NodeTree<Integer>(21);
+		NodeTree<Integer> n2 = new NodeTree<Integer>(31);
 		System.out.println(n);
 		System.out.println(n2);
 		System.out.println(n.getData().compareTo(n2.getData()));
