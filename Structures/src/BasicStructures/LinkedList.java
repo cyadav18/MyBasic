@@ -422,7 +422,6 @@ class linkedListIterator<T> implements Iterator<T> {
 
 	@Override
 	public T next() {
-		// TODO Auto-generated method stub
 		T data = current.getData();
 		current=current.getNext();
 		return data;
@@ -432,7 +431,7 @@ class linkedListIterator<T> implements Iterator<T> {
 class test{
 	public static void main(String[] args) {
 		LinkedList<Integer> l = new LinkedList<Integer>();
-		for(int i = 1;i<=12;i++) {
+		for(int i = 1;i<=15;i++) {
 			l.insert(i);
 		}
 		System.out.println(l);
