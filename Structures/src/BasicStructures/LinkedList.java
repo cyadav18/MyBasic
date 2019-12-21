@@ -261,7 +261,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	private void reversePair(Node<T> head) {
-		// TODO Auto-generated method stub
+		
 		if (head == null || head.getNext() == null)
 			return;
 		else {
@@ -311,8 +311,7 @@ public class LinkedList<T> implements Iterable<T> {
 		if (nxt != null) {
 			Node<T> temp = reverserK(nxt, k);
 			fst.setNext(temp);
-			if (temp != null)
-				temp.setPrevious(fst);
+			temp.setPrevious(fst);
 		}
 		return prev;
 	}
@@ -410,13 +409,12 @@ class linkedListIterator<T> implements Iterator<T> {
 	Node<T> current;
 
 	public linkedListIterator(Node<T> head) {
-		// TODO Auto-generated constructor stub
 		current = head;
 	}
 
 	@Override
 	public boolean hasNext() {
-		// TODO Auto-generated method stub
+		
 		return (current != null);
 	}
 
@@ -432,7 +430,7 @@ class linkedListIterator<T> implements Iterator<T> {
 class test {
 	public static void main(String[] args) {
 		LinkedList<Integer> l = new LinkedList<Integer>();
-		for (int i = 1; i <= 15; i++) {
+		for (int i = 1; i <= 12; i++) {
 			l.insert(i);
 		}
 		System.out.println(l);
@@ -441,9 +439,9 @@ class test {
 		// System.out.println(l);
 		// l.inserAtPosition(5, 5);
 		// System.out.println(l);
-		l.reverseEvenK(3);
+		// l.reverseEvenK(3);
 		// l.reverseFormAPoint(5);
-		System.out.println("After reversing");
+		//System.out.println("After reversing");
 		// System.out.println(l);
 		// Iterator<Integer> it = l.iterator();
 		// System.out.println(it.hasNext());
@@ -451,6 +449,7 @@ class test {
 		// System.out.println(it.next());
 		// }
 		// l.deleteList();
+		l.reverseK(3);
 		System.out.println(l);
 	}
 }
