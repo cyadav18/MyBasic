@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestNode",
+            "request": "launch",
+            "mainClass": "Structures/BasicStructures.TestNode",
+            "projectName": "Structures"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test_Remake",
+            "request": "launch",
+            "mainClass": "Structures/BasicStructures.Test_Remake",
+            "projectName": "Structures"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - test",
             "request": "launch",
             "mainClass": "Structures/BasicStructures.test",
