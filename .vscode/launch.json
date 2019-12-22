@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestTree",
+            "request": "launch",
+            "mainClass": "Structures/BasicStructures.TestTree",
+            "projectName": "Structures"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestBST",
+            "request": "launch",
+            "mainClass": "Structures/BasicStructures.TestBST",
+            "projectName": "Structures"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - testQueue",
+            "request": "launch",
+            "mainClass": "Structures/BasicStructures.testQueue",
+            "projectName": "Structures"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestNode",
             "request": "launch",
             "mainClass": "Structures/BasicStructures.TestNode",
