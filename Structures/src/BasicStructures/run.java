@@ -3,7 +3,7 @@ package BasicStructures;
 public class run {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Node <String>n=  new Node<String>("10");
 		System.out.println(n);
 		Node <String>n1 = new Node<String>("20");
